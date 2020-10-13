@@ -1,0 +1,167 @@
+body{
+    margin: 0 auto;
+    background-image: url(image/runner.jpg);
+    background-repeat: no-repeat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.svg_one {
+    transform: rotate(270deg);
+    width: 851px;
+    margin-top: 268px;
+    position: relative;
+    right: 328px;
+    z-index: 1;
+}
+
+.svg_two{
+    transform: rotate(270deg);
+    width: 851px;
+    bottom: 193px;
+    position: relative;
+    right: 300px;
+    z-index: 0;
+}
+
+.svg_three{
+    transform: rotate(270deg);
+    width: 801px;
+    bottom: 355px;
+    position: relative;
+    left: 300px;
+    z-index: 0;
+}
+
+.svg_four{
+    transform: rotate(270deg);
+    width: 801px;
+    bottom: 535px;
+    position: relative;
+    left: 320px;
+    z-index: 1;
+    
+}
+
+.point{
+    position: relative;
+    left: 800px;
+    bottom: 1050px;
+    width: 1120px;
+    height: 823px;
+    background-color: #14162D;
+}
+
+svg{
+    position: relative;
+    bottom: 1900px;
+    transform: rotate(65deg);
+    z-index: 3;
+    left: 1504px;
+}
+
+.logo{
+    position: relative;
+    bottom: 1750px;
+    width: 135px;
+    background-color: blue;
+}
+
+.logo img {
+    position: relative;
+    width: 135px;
+    z-index: 2;
+}
+
+.navbar{
+    position: absolute;
+    left: 20%;
+    top: 30px;
+    z-index: 4;
+    width: 50%;
+}
+
+.nav  li{
+    display: inline-block;
+    padding-left: 20%;
+    list-style-type: none;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.connect{
+    position: absolute;
+    color: tomato;
+    left: 1350px;
+    top: 40px;
+    z-index: 5;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 1px #fff;
+}
+
+.connect a{
+    text-decoration: none;
+    color: #fff;
+}
+
+input{
+    position: absolute;
+    left: 1550px;
+    z-index: 4;
+    top: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.text{
+    z-index: 6;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    color: #fff;
+    width: 30%;
+}
+
+.text h1{
+    font-size: 120px;
+    text-align: right;
+    margin: 0px;
+    font-style: italic;
+}
+
+.text h2{
+    font-size: 40px;
+    text-align: right;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.text p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.plus{
+    z-index: 5;
+    position: absolute;
+    background-color: #e9c117;
+    top: 650px;
+    left: 1450px;
+    width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient( #e9c117, rgb(200, 81, 12));
+}
+
+.plus p{
+    margin: 5px;
+    color: #fff;
+    font-weight: bolder;
+    font-style: italic;
+}
+
